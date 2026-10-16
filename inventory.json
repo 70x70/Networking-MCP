@@ -1,0 +1,51 @@
+{
+  "cisco-sw": {
+    "host": "192.168.1.10",
+    "device_type": "cisco_ios",
+    "username": "admin",
+    "password": "your_cisco_password",
+    "role": ""
+  },
+  "cisco-router": {
+    "host": "192.168.1.1",
+    "device_type": "cisco_xe",
+    "username": "admin",
+    "password": "your_cisco_password",
+    "role": ""
+  },
+  "cisco-nexus-switch": {
+    "host": "192.168.1.20",
+    "device_type": "cisco_nxos",
+    "username": "admin",
+    "password": "your_cisco_password",
+    "role": ""
+  },
+  "cisco-xr-router": {
+    "host": "192.168.1.30",
+    "device_type": "cisco_xr",
+    "username": "admin",
+    "password": "your_cisco_password",
+    "role": ""
+  },
+  "mikrotik-edge": {
+    "host": "192.168.2.1",
+    "device_type": "mikrotik_routeros",
+    "username": "admin",
+    "password": "your_mikrotik_password",
+    "role": ""
+  },
+  "huawei-sw-01": {
+    "host": "192.168.3.5",
+    "device_type": "huawei_vrp",
+    "username": "admin",
+    "password": "your_huawei_password",
+    "role": ""
+  },
+  "juniper-core": {
+    "host": "192.168.4.1",
+    "device_type": "juniper_junos",
+    "username": "admin",
+    "password": "your_juniper_password",
+    "role": ""
+  }
+}
