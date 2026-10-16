@@ -65,18 +65,13 @@ Remember all Roles Are Not Required  This is Only an Example  You can add more t
 
 #### Supported Netmiko `device_type` strings:
 
-* **Cisco Catalyst / Access Switches / IOS :** `cisco_ios`
-
-* **Cisco IOS-XE / Enterprise Routers:** `cisco_xe`
-
-* **Cisco Nexus Switches:** `cisco_nxos`
-
-* **MikroTik RouterOS:** `mikrotik_routeros`
-
-* **Huawei VRP:** `huawei_vrp`
-
-* **Juniper Junos:** `juniper_junos`
-
+* **Cisco Catalyst / Access Switches / IOS:** `cisco_ios` Cisco Catalyst 2960, 3750, and ISR 2900 series.
+* **Cisco IOS-XE / Enterprise Routers:** `cisco_xe` Cisco ISR 4000, ASR 1000, and Catalyst 9300 series.
+* **Cisco Nexus Switches:** `cisco_nxos` Cisco Nexus switches (e.g., Nexus 3000, 5000, 7000, 9000 series).
+* **Cisco IOS-XR / Core Routers:** `cisco_xr` Cisco ASR 9000 and NCS 5500 series.
+* **MikroTik RouterOS:** `mikrotik_routeros` MikroTik hEX, RouterBoards, Cloud Router Switches (CRS), and Cloud Core Routers (CCR).
+* **Huawei VRP:** `huawei_vrp` Huawei CloudEngine switches (e.g., S5700, S6700 series) and AR series enterprise routers.
+* **Juniper Junos:** `juniper_junos` Juniper EX series Ethernet switches, SRX series services gateways/firewalls, and MX series edge routers.
 
 
 ## 3. Connecting to Claude Desktop
