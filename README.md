@@ -1,7 +1,7 @@
 > ⚠️ **Important Note:** This tool interacts with all network devices via **SSH only**. Make sure SSH is enabled and accessible on your target gear before testing commands.
 # Multi-Vendor Network Automation MCP Server
 
-Manage your network devices (**Cisco**, **MikroTik**, **Huawei**, etc.) using natural language by connecting a Python-based Model Context Protocol (MCP) server directly to **Claude Desktop** or **Cursor**.
+Manage, configure, and automate multi-vendor networks (**Cisco**, **MikroTik**, **Huawei**, **Juniper**) using natural language. Connect this Python MCP server to **Claude Desktop** or **Cursor** (any MCP client works great, but I have included the most popular ones) to execute bulk tasks and complex configurations across dozens of routers and switches at once.
 
 ## 1. Prerequisites
 
@@ -15,7 +15,7 @@ pip install mcp netmiko fastmcp
 ## 2. Inventory & Server Setup
 
 ## Define `inventory.json`
-Remember all Roles Are Not Required  This is Only an Example  You can add more than that 
+Remember all Roles Are Not Required  This is Only an Example , you can more routers & switches 
 
 
 ```
